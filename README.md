@@ -77,37 +77,12 @@ influence classification accuracy and model robustness.
 
 <hr>
 
-<h2>🔍 Sample model performance metrics</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th>Accuracy</th>
-      <th>Precision</th>
-      <th>Recall</th>
-      <th>F1-score</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Random Forest</td>
-      <td>93.8%</td>
-      <td>0.94</td>
-      <td>0.92</td>
-      <td>0.93</td>
-    </tr>
-    <tr>
-      <td>SVM (Polynomial + Feature Selection)</td>
-      <td>91.5%</td>
-      <td>0.92</td>
-      <td>0.90</td>
-      <td>0.91</td>
-    </tr>
-  </tbody>
-</table>
-
-<p><em>Metrics are representative of the test set performance after model tuning and cross-validation.</em></p>
+<h3>🔍 Sample results and insights</h3>
+<ul>
+  <li>Random Forest achieved strong classification performance with high recall on positive COVID-19 cases.</li>
+  <li>SVM models benefited significantly from feature scaling and polynomial feature transformations.</li>
+  <li>Feature selection improved interpretability by isolating the most medically relevant indicators.</li>
+</ul>
 
 <hr>
 
